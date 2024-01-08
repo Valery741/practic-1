@@ -199,6 +199,7 @@ body {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 .logotype-footer {
   font-family: "Quincy CF", serif;
