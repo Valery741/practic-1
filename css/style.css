@@ -9,6 +9,7 @@ body {
 .container {
   width: 1440px;
   padding: 0 100px;
+  margin: 0 auto;
 }
 .header-container {
   display: flex;
@@ -191,7 +192,7 @@ body {
 
 .footer {
   background-color: #6d8434;
-  height: 386px;
+  padding: 40px 0 20px;
 }
 .container {
 }
@@ -206,7 +207,7 @@ body {
   display: flex;
   gap: 8px;
   text-decoration: none;
-  padding: 40px 0;
+  margin-bottom: 20px;
 }
 .logotype-icon-wrapper-footer {
   width: 28px;
@@ -233,6 +234,8 @@ body {
   gap: 16px;
   text-decoration: none;
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 .social-media-item {
 }
@@ -249,7 +252,6 @@ body {
 
 .footer-display-box {
   width: 410px;
-  margin-right: 148px;
 }
 .footer-display {
   color: #e8e8e2;
@@ -258,17 +260,29 @@ body {
   font-weight: 500;
   line-height: 44px;
   letter-spacing: -0.8px;
+  margin: 0;
+  margin-bottom: 20px;
+}
+.footer-symbol {
+  color: rgba(232, 232, 226, 0.7);
+  display: inline-block;
+  margin: 0 8px;
+  font-size: 14px;
+  line-height: 18px; /* 128.571% */
 }
 .footer-display-text {
-  max-width: 410px;
   color: rgba(232, 232, 226, 0.7);
+  max-width: 410px;
   font-family: Neue Montreal;
   font-size: 18px;
   font-weight: 400;
   line-height: 24px;
+  margin: 0;
+}
+.footer-link {
+  text-decoration: none;
 }
 .subscr-box {
-  width: 100%;
 }
 .subscr-box-text {
   color: rgba(232, 232, 226, 0.6);
@@ -276,6 +290,8 @@ body {
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
+  margin: 0;
+  margin-bottom: 20px;
 }
 .subscr-form {
   display: flex;
@@ -289,9 +305,11 @@ body {
   border: 1px solid #e8e8e2;
   background-color: transparent;
   display: flex;
-  padding: 12px 280px 12px 18px;
+  padding: 12px 18px;
   align-items: center;
   gap: 10px;
+  width: 336px;
+  height: 48px;
 }
 .send-button {
   font-size: 16px;
@@ -299,10 +317,15 @@ body {
   line-height: 24px;
   display: flex;
   width: 336px;
-  padding: 12px 149px;
+  padding: 12px 24px;
   justify-content: center;
   align-items: center;
   gap: 8px;
   border-radius: 30px;
   background-color: #e8e8e2;
+  border: none;
+}
+.privacy-box {
+  display: flex;
+  justify-content: space-between;
 }
