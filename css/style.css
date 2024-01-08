@@ -1,0 +1,307 @@
+body {
+  background-color: #e8e8e2;
+  font-family: "Neue Montreal", sans-serif;
+  font-size: 12px;
+  color: #010101;
+}
+.header {
+}
+.container {
+  width: 1440px;
+  padding: 0 100px;
+}
+.header-container {
+  display: flex;
+  justify-content: space-between;
+}
+.logotype {
+  font-family: "Quincy CF", serif;
+  display: flex;
+  gap: 8px;
+  text-decoration: none;
+  align-items: center;
+  padding: 27px 0;
+}
+.logotype-icon-wrapper {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #6d8434;
+}
+.logotype-icon {
+  fill: #e8e8e2;
+}
+.logotype-text {
+  color: #010101;
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 24px;
+  letter-spacing: -0.48px;
+}
+.nav {
+}
+.nav-link {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 14px;
+  padding: 24px 0;
+}
+.nav-icon-wrapper {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #6d8434;
+}
+.nav-icon {
+  fill: #e8e8e2;
+}
+.nav-link-text {
+  color: #010101;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+.hero {
+  padding-top: 94px;
+  padding-bottom: 120px;
+}
+.hero-container {
+  display: flex;
+  align-items: center;
+}
+.hero-card {
+  width: 350px;
+  height: 480px;
+  background-color: #fafafa;
+  padding: 20px;
+  border-radius: 20px;
+  position: relative;
+  margin-right: 100px;
+}
+.hero-card-image {
+  width: 310px;
+  height: 312px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.hero-tags-list {
+  list-style: none;
+  display: flex;
+  gap: 4px;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 20px;
+}
+.hero-tags-item {
+}
+.hero-tags-wrapper {
+  padding: 8px 24px;
+  border-radius: 30px;
+  border: 1px solid rgba(1, 1, 1, 0.3);
+}
+.hero-tags-text {
+  color: #010101;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+  margin: 0;
+}
+.hero-card-text {
+  color: #010101;
+  font-size: 18px;
+  line-height: 24px;
+  margin: 0;
+}
+.sticker-box {
+  position: absolute;
+  top: 200px;
+  right: -25px;
+  width: 100px;
+  height: 100px;
+}
+.hero-display-box {
+  width: 492px;
+  margin-right: 55px;
+}
+.display {
+  color: #010101;
+  font-size: 96px;
+  font-weight: 500;
+  line-height: 100px;
+  letter-spacing: -1.92px;
+  margin: 0;
+  margin-bottom: 20px;
+}
+.hero-display-text {
+  color: rgba(1, 1, 1, 0.7);
+  font-size: 18px;
+  line-height: 24px;
+  margin: 0;
+  margin-bottom: 40px;
+}
+.hero-link {
+  padding: 18px 47px;
+  color: #e8e8e2;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  border-radius: 30px;
+  background-color: #6d8434;
+  text-decoration: none;
+}
+.hero-image-box {
+}
+
+.product {
+}
+.product-container {
+}
+.product-card {
+  width: 295px;
+  height: 363px;
+}
+.product-card-list {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  column-gap: 20px;
+  row-gap: 40px;
+}
+.product-card-item {
+  border-radius: 20px;
+  background-color: #fafafa;
+}
+.product-image {
+  width: 140px;
+  height: 140px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  background: #e8e8e2;
+}
+
+.footer {
+  background-color: #6d8434;
+  height: 386px;
+}
+.container {
+}
+.footer-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.logotype-footer {
+  font-family: "Quincy CF", serif;
+  display: flex;
+  gap: 8px;
+  text-decoration: none;
+  padding: 40px 0;
+}
+.logotype-icon-wrapper-footer {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e8e8e2;
+}
+.logotype-icon-footer {
+  fill: #6d8434;
+}
+.logotype-footer-text {
+  color: #e8e8e2;
+  font-family: "Quincy CF", serif;
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 24px;
+  letter-spacing: -0.48px;
+}
+.social-media-list {
+  display: flex;
+  gap: 16px;
+  text-decoration: none;
+  list-style: none;
+}
+.social-media-item {
+}
+.social-media-link-icon {
+  display: flex;
+  padding: 8px;
+  gap: 8px;
+  border-radius: 10px;
+  border: 1px solid rgba(232, 232, 226, 0.3);
+}
+.socials-media-icon {
+  fill: #e8e8e2;
+}
+
+.footer-display-box {
+  width: 410px;
+  margin-right: 148px;
+}
+.footer-display {
+  color: #e8e8e2;
+  font-family: Neue Montreal;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 44px;
+  letter-spacing: -0.8px;
+}
+.footer-display-text {
+  max-width: 410px;
+  color: rgba(232, 232, 226, 0.7);
+  font-family: Neue Montreal;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.subscr-box {
+  width: 100%;
+}
+.subscr-box-text {
+  color: rgba(232, 232, 226, 0.6);
+  font-family: Neue Montreal;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.subscr-form {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+}
+.subscr-form-label {
+}
+.subscr-form-input {
+  border-radius: 30px;
+  border: 1px solid #e8e8e2;
+  background-color: transparent;
+  display: flex;
+  padding: 12px 280px 12px 18px;
+  align-items: center;
+  gap: 10px;
+}
+.send-button {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  display: flex;
+  width: 336px;
+  padding: 12px 149px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 30px;
+  background-color: #e8e8e2;
+}

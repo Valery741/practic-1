@@ -1,0 +1,15 @@
+@font-face {
+  font-family: "Quincy CF";
+  font-weight: 900;
+  src: url("../fonts/QuincyCF-Black.ttf");
+}
+@font-face {
+  font-family: "Neue Montreal";
+  font-weight: 500;
+  src: url("../fonts/NeueMontreal-Medium.ttf");
+}
+@font-face {
+  font-family: "Neue Montreal";
+  font-weight: 400;
+  src: url("../fonts/NeueMontreal-Regular.ttf");
+}
